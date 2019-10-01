@@ -25,6 +25,12 @@ members:
   - login: yuizumi
     name: Yusuke Izumi
 communication:
-  - slack: Caching Working Group members will use `#wg-caching` channel on AMP's Slack ([signup](https://docs.google.com/forms/d/e/1FAIpQLSd83J2IZA6cdR6jPwABGsJE8YL4pkypAbKMGgUZZriU7Qu6Tg/viewform?fbzx=4406980310789882877)) for real-time discussion. The channel is open to anyone, regardless of membership in UI working group. However, support is better suited to the `#caching-discuss`, `#signed-exchanges`, and `#validator-discuss` channels.
-  - status_updates: Caching Working Group will post **Status Updates** every two weeks as an issue labeled with `Type: Status Update` in this repository.
-  - announcements: Caching Working Group will post **Announcements and Notices** regarding events as an issue labeled with `Type: Event` in this repository.
+  - channel: slack
+    name: Slack
+    content: "Caching Working Group members will use `#wg-caching` channel on AMP's Slack ([signup](https://docs.google.com/forms/d/e/1FAIpQLSd83J2IZA6cdR6jPwABGsJE8YL4pkypAbKMGgUZZriU7Qu6Tg/viewform?fbzx=4406980310789882877)) for real-time discussion. The channel is open to anyone, regardless of membership in UI working group. However, support is better suited to the `#caching-discuss`, `#signed-exchanges`, and `#validator-discuss` channels."
+  - channel: status_updates
+    name: Status Updates
+    content: "Caching Working Group will post **Status Updates** every two weeks as an issue labeled with `Type: Status Update` in this repository."
+  - channel: announcements
+    name: Announcements and Notices
+    content: "Caching Working Group will post **Announcements and Notices** regarding events as an issue labeled with `Type: Event` in this repository."
